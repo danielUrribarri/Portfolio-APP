@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../css/aos.css">
     <link rel="stylesheet" href="../../css/line-awesome.min.css">
     <link rel="stylesheet" href="../../css/style.css"> -->
-    @vite(['resources/css/aos.css','resources/css/bootstrap.min.css','resources/css/line-awesome.min.css','resources/css/style.css',])
+    @vite(['resources/css/aos.css','resources/css/bootstrap.min.css','resources/css/line-awesome.min.css','resources/css/style.css'])
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
