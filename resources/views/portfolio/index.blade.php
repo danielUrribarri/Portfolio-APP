@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Urribarri</title>
-<!--    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/aos.css">
     <link rel="stylesheet" href="../../css/line-awesome.min.css">
-    <link rel="stylesheet" href="../../css/style.css"> -->
-    @vite(['resources/css/aos.css','resources/css/bootstrap.min.css','resources/css/line-awesome.min.css','resources/css/style.css'])
+    <link rel="stylesheet" href="../../css/style.css">-->
+    @vite(['resources/css/bootstrap.min.css','resources/css/line-awesome.min.css','resources/css/style.css'])
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
@@ -92,7 +92,7 @@
                     <div class="col-md-6" data-aos="fade-up">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="../../images/project-1.jpg" alt="">
+                                <img class="rounded-4" src="/images/project-1.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
                                 <h4>Startup Landing Page</h4>
@@ -105,7 +105,7 @@
                     <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="../../images/project-2.png" alt="">
+                                <img class="rounded-4" src="/images/project-2.png" alt="">
                             </div>
                             <div class="card-custom-content p-4">
                                 <h4>Startup Landing Page</h4>
@@ -118,7 +118,7 @@
                     <div class="col-md-6" data-aos="fade-up">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="../../images/project-3.png" alt="">
+                                <img class="rounded-4" src="/images/project-3.png" alt="">
                             </div>
                             <div class="card-custom-content p-4">
                                 <h4>Startup Landing Page</h4>
@@ -131,7 +131,7 @@
                     <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="../../images/project-4.png" alt="">
+                                <img class="rounded-4" src="/images/project-4.png" alt="">
                             </div>
                             <div class="card-custom-content p-4">
                                 <h4>Startup Landing Page</h4>
@@ -318,7 +318,7 @@
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="../../images/blog-post-1.jpg" alt="">
+                                <img class="rounded-4" src="/images/blog-post-1.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
                                 <p class="text-brand mb-2">20 Dec, 2022</p>
@@ -331,7 +331,7 @@
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="../../images/blog-post-2.jpg" alt="">
+                                <img class="rounded-4" src="/images/blog-post-2.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
                                 <p class="text-brand mb-2">20 Dec, 2022</p>
@@ -344,7 +344,7 @@
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="../../images/blog-post-3.jpg" alt="">
+                                <img class="rounded-4" src="/images/blog-post-3.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
                                 <p class="text-brand mb-2">20 Dec, 2022</p>
@@ -419,10 +419,10 @@
 
 
 
-    <!-- <script src="../../js/bootstrap.bundle.min.js"></script>
+    <!--<script src="../../js/bootstrap.bundle.min.js"></script>
     <script src="../../js/aos.js"></script>
-    <script src="../../js/main.js"></script> -->
-    @vite(['resources/js/bootstrap.bundle.min.js', 'resources/js/aos.js', 'resources/js/main.js'])
+    <script src="../../js/main.js"></script>-->
+    @vite(['resources/js/bootstrap.bundle.min.js', 'resources/js/main.js'])
 </body>
 
 </html>
