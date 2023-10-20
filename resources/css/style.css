@@ -97,7 +97,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(58, 60, 60, 0.8), rgba(58, 60, 60, 0.8)), url(../images/sidebar-img.jpg);
+        background: linear-gradient(rgba(58, 60, 60, 0.8), rgba(58, 60, 60, 0.8)), url(../../public/images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
     }

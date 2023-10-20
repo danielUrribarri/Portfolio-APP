@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Urribarri</title>
-    <!--<link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/aos.css">
-    <link rel="stylesheet" href="../../css/line-awesome.min.css">
-    <link rel="stylesheet" href="../../css/style.css">-->
     @vite(['resources/css/bootstrap.min.css','resources/css/line-awesome.min.css','resources/css/style.css'])
 </head>
 
@@ -372,18 +368,20 @@
                     </div>
 
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="#" class="row g-lg-3 gy-3">
+                        <form method="post" action="{{route('portfolio.ContactMe')}}" class="row g-lg-3 gy-3">
+                            @csrf
+                            @method('post')
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Enter your name">
+                                <input name="name" type="text" class="form-control" placeholder="Enter your name">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <input name="email" type="email" class="form-control" placeholder="Enter your email">
                             </div>
                             <div class="form-group col-12">
-                                <input type="text" class="form-control" placeholder="Enter subject">
+                                <input name="subject" type="text" class="form-control" placeholder="Enter subject">
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                                <textarea name="message" rows="4" class="form-control" placeholder="Enter your message"></textarea>
                             </div>
                             <div class="form-group col-12 d-grid">
                                 <button type="submit" class="btn btn-brand">Contact me</button>
@@ -419,10 +417,7 @@
 
 
 
-    <!--<script src="../../js/bootstrap.bundle.min.js"></script>
-    <script src="../../js/aos.js"></script>
-    <script src="../../js/main.js"></script>-->
-    @vite(['resources/js/bootstrap.bundle.min.js', 'resources/js/main.js'])
+    @vite(['resources/js/bootstrap.bundle.min.js', 'resources/js/aos.js', 'resources/js/main.js','resources/js/app.js'])
 </body>
 
 </html>
