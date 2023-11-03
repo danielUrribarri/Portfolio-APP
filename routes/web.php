@@ -21,4 +21,5 @@ Route::get('/', function () {
 route::get('/portfolio', [ContactController::class, 'index'])->name('portfolio.index');
 Auth::routes();
 
+
 route::post('/portfolio', [ContactController::class, 'ContactMe'])->name('portfolio.ContactMe');

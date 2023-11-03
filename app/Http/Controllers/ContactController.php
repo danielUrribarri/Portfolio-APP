@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\contact;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMail;
 
 class ContactController extends Controller
 {
@@ -20,6 +22,9 @@ class ContactController extends Controller
         ]);
 
         $newContact = contact::create($date);
+
+        Mail::to($date["email"])->send(new SendMail());
+
         return redirect(route('portfolio.index') . '#contact');
    }
 }
