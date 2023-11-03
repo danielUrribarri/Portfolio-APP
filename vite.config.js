@@ -12,7 +12,7 @@ export default defineConfig({
                 'resources/css/style.css',               
                 'resources/js/bootstrap.bundle.min.js',
                 'resources/js/main.js',
-                'resources/js/aos.js',                
+                'resources/js/aos.js'                
             ],
             refresh: true,
         }),
