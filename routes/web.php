@@ -14,11 +14,9 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-route::get('/portfolio', [ContactController::class, 'index'])->name('portfolio.index');
+
+route::get('/', [ContactController::class, 'index'])->name('portfolio.index');
 Auth::routes();
 
 
