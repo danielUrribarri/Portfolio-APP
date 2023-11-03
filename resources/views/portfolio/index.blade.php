@@ -63,7 +63,7 @@
                         <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Daniel, And an enthusiastic developer.</p>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-                            <a href="#" class="link-custom">Call: (+41) 76 722 51 60</a>
+                            <a href="tel:+41767225160" class="link-custom">Call: (+41) 76 722 51 60</a>
                         </div>
                     </div>
                 </div>
@@ -317,8 +317,8 @@
                                 <img class="rounded-4" src="/images/blog-post-1.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
+                                <p class="text-brand mb-2">13 Nov, 2023</p>
+                                <h5 class="mb-4">Frontend created using Bootstrap 5</h5>
                                 <a href="#" class="link-custom">Read More</a>
                             </div>
                         </div>
@@ -330,8 +330,8 @@
                                 <img class="rounded-4" src="/images/blog-post-2.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
+                                <p class="text-brand mb-2">13 Nov, 2023</p>
+                                <h5 class="mb-4"><br>Backend created using Laravel</h5>
                                 <a href="#" class="link-custom">Read More</a>
                             </div>
                         </div>
@@ -343,8 +343,8 @@
                                 <img class="rounded-4" src="/images/blog-post-3.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
+                                <p class="text-brand mb-2">13 Nov, 2023</p>
+                                <h5 class="mb-4">Servers used Laragon and Mailtrap</h5>
                                 <a href="#" class="link-custom">Read More</a>
                             </div>
                         </div>
@@ -401,10 +401,8 @@
                 <div class="row gy-4 justify-content-end">
                     <div class="col-auto">
                         <div class="social-icons">
-                            <a href="#"><i class="lab la-twitter"></i></a>
-                            <a href="#"><i class="lab la-instagram"></i></a>
-                            <a href="#"><i class="lab la-dribbble"></i></a>
-                            <a href="#"><i class="lab la-github"></i></a>
+                            <a href="https://www.linkedin.com/in/daniel-alejandro-urribarri" target="_blank"><i class="lab la-linkedin"></i></a>
+                            <a href="https://github.com/danielUrribarri" target="_blank"><i class="lab la-github"></i></a>
                         </div>
                     </div>
                 </div>
